@@ -58,7 +58,11 @@ python train_MTL_Moe.py -w True --save_model True
 
 ```
 ## ✅ Training CNN + BLSTM 
-
+To start training the model, run either of the commands below: 
+```bash
+python train_blstm.py -t H3K4me3 --save_model
+python train_blstm.py -t H3K27ac --save_model --wandb_report
+```
 
 ## ✅ Prediction
 To run all tests, execute:
